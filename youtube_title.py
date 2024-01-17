@@ -3,7 +3,7 @@ import google_auth_oauthlib.flow
 import googleapiclient.discovery
 
 # API 키 또는 OAuth 2.0 인증 정보 설정
-API_KEY = 'AIzaSyAHsr8I7JvLY8A-jsn96orNuMQwGxuB8rE'  # 자신의 API 키로 교체
+API_KEY = '--------rE'  # 자신의 API 키로 교체
 # CLIENT_SECRETS_FILE = 'client_secret.json'  # 자신의 인증 정보 파일로 교체
 
 # YouTube API 클라이언트 생성
@@ -50,7 +50,7 @@ def get_all_video_titles(channel_id, api_key=None):
     return video_titles
 
 # 채널 ID를 얻는 방법: https://support.google.com/youtube/answer/3250431?hl=en
-channel_id = 'UCQNE2JmbasNYbjGAcuBiRRg'  # 예시 채널 ID, 자신의 채널 ID로 교체
+channel_id = 'UC------------RRg'  # 예시 채널 ID, 자신의 채널 ID로 교체
 
 # 동영상 제목 가져오기
 video_titles = get_all_video_titles(channel_id, API_KEY)
